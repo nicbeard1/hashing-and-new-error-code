@@ -1,0 +1,16 @@
+password hashing
+
+<?php
+echo password_hash("rasmusierdorf", PASSWORD_BCRYPT). "In";
+shash =
+'$2y$07$BCryptRequires22Chrcte/VIQH0pi]tjX1.0t1XkA8pw9dMXTpog';
+if (password_verify('rasmuslerdorf', $hash)) {
+echo 'Password is valid!';
+} else {
+echo 'Invalid password.';
+}
+?>
+
+print error
+
+error_log(print_r($pm2_5_max, true));
